@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d8d8d8;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.companias h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.companias ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.companias li {
+  margin-bottom: 10px;
+}
+
+.companias li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #020202;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.companias li a:hover {
+  background-color: #000000;
+}
+
+footer {
+  background-color: #000000;
+  color: rgb(58, 11, 188);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
